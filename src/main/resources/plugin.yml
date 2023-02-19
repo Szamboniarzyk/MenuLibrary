@@ -1,0 +1,3 @@
+name: MenuLibrary
+main: xyz.szambo.menu.PluginMain
+api-version: 16

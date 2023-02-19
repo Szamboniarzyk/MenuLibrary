@@ -2,7 +2,7 @@ package xyz.szambo.menu;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class PluginMain extends JavaPlugin {
+public class MenuLibrary {
 
     private static JavaPlugin plugin;
 
@@ -11,6 +11,6 @@ public class PluginMain extends JavaPlugin {
     }
 
     public static void setPlugin(final JavaPlugin plugin) {
-        PluginMain.plugin = plugin;
+        MenuLibrary.plugin = plugin;
     }
 }
